@@ -1,14 +1,39 @@
-[orange]TODO: Mod Display Name
+[orange]DriveDogs: Better Flares City Lights
 
-[normal]TODO: one or two sentence summary of what this mod does.
+[normal]An add-on for Better Flares v4.9 - City Lights Addon. Street, tunnel and other environment lights
+keep the Better Flares look (flare sprites, colour and beam shape) but light the world about as brightly as
+the base game, and the lights Better Flares leaves untouched get the same look, so night driving has one
+consistent style.
 --------------------
-[orange]What this changes:
-[normal]- TODO
---------------------
-[orange]What this does NOT change:
-[normal]- TODO
---------------------
-[green]Changelogs
+[orange]What changes
+[normal]- Brighter environment lights: Better Flares City Lights makes nights much darker (about 30% of
+  the base game's light). This mod gives every lamp back its own base-game brightness while keeping
+  Better Flares' sprite, colour and beam shape.
+- Lights that are missing with City Lights on game 1.62 come back: its files predate 1.62 and drop the
+  newer underground / indoor fill lights (depots, player garages) and some newer street and parking
+  lot lights.
+- Environment lights Better Flares leaves vanilla get its sprites where it has one for that colour:
+  US street lamps it does not cover, blinking street lights, plane / obstruction lights (white, red,
+  green), green lamps and photographers' camera flashes. Blue beacons, small red / green lamps and
+  garage lamps stay as in the base game.
 
-[orange]v0.1.0
-[normal]- Initial release
+What does NOT change:
+- Headlights and vehicle lights (see DriveDogs: Better Flares More Visibility).
+- Traffic lights (see DriveDogs World).
+--------------------
+[orange]Requirements / load order
+[normal]Top = highest priority in Mod Manager:
+1. DriveDogs: Better Flares City Lights   <- this mod
+2. DriveDogs: Better Flares More Visibility (optional)
+3. Better Flares - Traffic Addon (optional)
+4. Better Flares - Headlights.2 (optional)
+5. Better Flares - Headlights.1 (optional)
+6. Better Flares - City Lights Addon v4.9
+7. Better Flares - Base v4.9.1
+
+Only for American Truck Simulator 1.62 with Better Flares v4.9 / v4.9.1. Better Flares Base and City
+Lights Addon are both required. Use the plain City Lights Addon, not "City Lights Addon with Fog".
+--------------------
+[orange]Changelog
+[normal]1.0.0-dev.1 - Test build. Base-game brightness with the Better Flares look, the lights City
+Lights drops on game 1.62 restored, and Better Flares sprites on environment lights it leaves vanilla.

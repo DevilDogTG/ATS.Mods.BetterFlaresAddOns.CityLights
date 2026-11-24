@@ -1,0 +1,23 @@
+SiiNunit
+{
+light_source : poor.garage.interior.o.light #N1
+{
+	setup: lumen_hue_saturation
+	diffuse_color: (1600, 45, 55)
+	specular_color: (1600, 45, 55)
+
+	type: point
+	range: 13
+}
+
+light_source : poor.garage.interior.o.light
+{
+        setup: lumen_hue_saturation
+	diffuse_color: (21200, 45, 16)
+	specular_color: (21200, 45, 4)
+
+	type: point
+	range: 13
+
+}
+}

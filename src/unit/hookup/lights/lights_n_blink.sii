@@ -1,0 +1,56 @@
+SiiNunit
+{
+
+flare_blink : flare.light.n.9m.blink
+{
+	dir_type: all
+	blink_pattern: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-X--X---X-X----X-"
+	blink_step_length: 0.1
+
+	setup: lumen_hue_saturation
+	ambient_color: (5, 189, 4)
+	diffuse_color: (900, 189, 16)
+	specular_color: (900, 189, 16)
+
+	range: 30.0
+	cut_range: 10
+	inner_angle: 10.0
+	outer_angle: 120.0
+		
+
+	model: "/model/flare/lamp_6k.pmd"
+	scale_factor: 1.6
+
+	night_only: true
+	default_scale: 9
+	scaling_start_distance: 0
+	scaling_end_distance: 60
+}
+
+flare_blink : flare.light.n.11m.blink
+{
+	dir_type: all
+	blink_pattern: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-X--X---X-X----X-"
+	blink_step_length: 0.1
+
+	setup: lumen_hue_saturation
+	ambient_color: (5, 48, 58)
+	diffuse_color: (1200, 49, 40)
+	specular_color: (1200, 49, 40)
+
+	range: 30.0
+	cut_range: 10
+	inner_angle: 10.0
+	outer_angle: 140.0
+	
+	
+	
+	model: "/model/flare/lamp_2k.pmd"
+	scale_factor: 1.6
+
+	night_only: true
+	default_scale: 9
+	scaling_start_distance: 0
+	scaling_end_distance: 60
+}
+}

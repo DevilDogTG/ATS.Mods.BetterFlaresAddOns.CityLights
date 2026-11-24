@@ -1,0 +1,32 @@
+SiiNunit
+{
+light_source : parked.omni.light #N1
+{
+	setup: lumen_hue_saturation
+	diffuse_color: (3400, 50, 15)
+	specular_color: (3400, 50, 15)
+
+	type: point
+	range: 12.5
+
+	fade_distance: 100
+	fade_span: 120
+
+	state_change_duration: 1.0
+}
+
+light_source : parked.omni.light
+{
+	setup: lumen_hue_saturation
+	diffuse_color: (27500, 49, 40)
+	specular_color: (27500, 49, 40)
+
+	type: point
+	range: 12.5
+
+	fade_distance: 100
+	fade_span: 120
+
+	state_change_duration: 1.0
+}
+}

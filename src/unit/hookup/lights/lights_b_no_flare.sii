@@ -1,0 +1,159 @@
+SiiNunit
+{
+light_source : light.b.3m.no.flare #B2
+{
+	setup: lumen_hue_saturation
+	ambient_color: (0.1, 220, 40)
+	diffuse_color: (600, 210, 20)
+	specular_color: (600, 210, 20)
+
+	range: 12
+	cut_range: 4
+	inner_angle: 5.0
+	outer_angle: 130.0
+}
+
+light_source : light.b.4m.no.flare
+{
+	setup: lumen_hue_saturation
+	ambient_color: (0.1, 220, 40)
+	diffuse_color: (1000, 210, 20)
+	specular_color: (1000, 210, 20)
+
+	range: 15
+	cut_range: 5
+	inner_angle: 5.0
+	outer_angle: 130.0
+}
+
+light_source : light.b.5m.no.flare
+{
+	setup: lumen_hue_saturation
+	ambient_color: (0.1, 220, 40)
+	diffuse_color: (1500, 210, 20)
+	specular_color: (1500, 210, 20)
+
+	range: 18
+	cut_range: 6
+	inner_angle: 5.0
+	outer_angle: 130.0
+}
+
+light_source : light.b.6m.no.flare
+{
+	setup: lumen_hue_saturation
+	ambient_color: (0.1, 220, 40)
+	diffuse_color: (2100, 210, 20)
+	specular_color: (2100, 210, 20)
+
+	range: 21
+	cut_range: 7.0
+	inner_angle: 5.0
+	outer_angle: 130.0
+}
+
+light_source : light.b.7m.no.flare
+{
+	setup: lumen_hue_saturation
+	ambient_color: (0.1, 220, 40)
+	diffuse_color: (2900, 210, 20)
+	specular_color: (2900, 210, 20)
+
+	range: 24
+	cut_range: 8
+	inner_angle: 5.0
+	outer_angle: 130.0
+}
+
+light_source : light.b.9m.no.flare
+{
+	setup: lumen_hue_saturation
+	ambient_color: (0.1, 220, 40)
+	diffuse_color: (4700, 210, 20)
+	specular_color: (4700, 210, 20)
+
+	range: 30
+	cut_range: 10
+	inner_angle: 5.0
+	outer_angle: 130.0
+}
+
+light_source : light.b.11m.no.flare
+{
+	setup: lumen_hue_saturation
+	ambient_color: (0.1, 220, 40)
+	diffuse_color: (7100, 210, 20)
+	specular_color: (7100, 210, 20)
+
+	range: 36
+	cut_range: 12
+	inner_angle: 5.0
+	outer_angle: 130.0
+}
+
+light_source : light.b.13m.no.flare
+{
+	setup: lumen_hue_saturation
+	ambient_color: (0.1, 220, 40)
+	diffuse_color: (9900, 210, 20)
+	specular_color: (9900, 210, 20)
+
+	range: 42
+	cut_range: 14
+	inner_angle: 5.0
+	outer_angle: 130.0
+}
+
+light_source : light.b.15m.no.flare
+{
+	setup: lumen_hue_saturation
+	ambient_color: (0.1, 220, 40)
+	diffuse_color: (13100, 210, 20)
+	specular_color: (13100, 210, 20)
+
+	range: 48
+	cut_range: 16
+	inner_angle: 5.0
+	outer_angle: 130.0
+}
+
+light_source : light.b.17m.no.flare
+{
+	setup: lumen_hue_saturation
+	ambient_color: (0.1, 220, 40)
+	diffuse_color: (16800, 210, 20)
+	specular_color: (16800, 210, 20)
+
+	range: 54
+	cut_range: 18
+	inner_angle: 5.0
+	outer_angle: 130.0
+}
+
+light_source : light.b.20m.no.flare
+{
+	setup: lumen_hue_saturation
+	ambient_color: (0.1, 220, 40)
+	diffuse_color: (23300, 210, 20)
+	specular_color: (23300, 210, 20)
+
+	range: 63
+	cut_range: 21
+	inner_angle: 5.0
+	outer_angle: 130.0
+}
+
+light_source : light.b.25m.no.flare
+{
+	setup: lumen_hue_saturation
+	ambient_color: (0.1, 220, 40)
+	diffuse_color: (35900, 210, 20)
+	specular_color: (35900, 210, 20)
+
+	range: 78
+	cut_range: 26
+	inner_angle: 5.0
+	outer_angle: 130.0
+}
+
+}

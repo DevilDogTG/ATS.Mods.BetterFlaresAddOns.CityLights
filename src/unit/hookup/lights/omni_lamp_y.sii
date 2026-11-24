@@ -1,0 +1,112 @@
+SiiNunit
+{
+
+light_source : omni.lamp.y.3m
+{
+	setup: lumen_hue_saturation
+	ambient_color: (5, 40, 94)
+	diffuse_color: (6000, 48, 68)
+	specular_color: (6000, 48, 68)
+
+	range: 5.0
+	type: point
+
+	dir_type: all
+	model: "/model/flare/lamp_2k.pmd"
+	scale_factor: 1.6
+	default_scale: 9
+	scaling_start_distance: 0
+	scaling_end_distance: 60
+}
+
+light_source : omni.lamp.y.4m
+{
+	setup: lumen_hue_saturation
+	ambient_color: (5, 40, 94)
+	diffuse_color: (11000, 48, 68)
+	specular_color: (11000, 48, 68)
+
+	range: 6.25
+	type: point
+
+	dir_type: all
+	model: "/model/flare/lamp_2k.pmd"
+	scale_factor: 1.6
+	default_scale: 9
+	scaling_start_distance: 0
+	scaling_end_distance: 60
+}
+
+light_source : omni.lamp.y.5m
+{
+	setup: lumen_hue_saturation
+	ambient_color: (5, 40, 94)
+	diffuse_color: (18000, 48, 68)
+	specular_color: (18000, 57, 0)
+
+	range: 7.5
+	type: point
+
+	dir_type: all
+	model: "/model/flare/lamp_2k.pmd"
+	scale_factor: 1.6
+	default_scale: 9
+	scaling_start_distance: 0
+	scaling_end_distance: 60
+}
+
+light_source : omni.lamp.y.6m
+{
+	setup: lumen_hue_saturation
+	ambient_color: (5, 40, 94)
+	diffuse_color: (27200, 48, 68)
+	specular_color: (27200, 57, 0)
+
+	range: 8.75
+	type: point
+
+	dir_type: all
+	model: "/model/flare/lamp_2k.pmd"
+	scale_factor: 1.6
+	default_scale: 9
+	scaling_start_distance: 0
+	scaling_end_distance: 60
+}
+
+light_source : omni.lamp.y.7m
+{
+	setup: lumen_hue_saturation
+	ambient_color: (5, 40, 94)
+	diffuse_color: (38000, 48, 68)
+	specular_color: (38000, 48, 68)
+
+	range: 10.0
+	type: point
+
+	dir_type: all
+	model: "/model/flare/lamp_2k.pmd"
+	scale_factor: 1.6
+	default_scale: 9
+	scaling_start_distance: 0
+	scaling_end_distance: 60
+}
+
+light_source : omni.lamp.y.9m
+{
+	setup: lumen_hue_saturation
+	ambient_color: (5, 40, 94)
+	diffuse_color: (68000, 48, 68)
+	specular_color: (68000, 48, 68)
+
+	range: 12.5
+	type: point
+
+	dir_type: all
+	model: "/model/flare/lamp_2k.pmd"
+	scale_factor: 1.6
+	default_scale: 9
+	scaling_start_distance: 0
+	scaling_end_distance: 60
+}
+
+}
