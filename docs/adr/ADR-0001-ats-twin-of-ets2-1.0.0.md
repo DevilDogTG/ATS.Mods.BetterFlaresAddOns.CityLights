@@ -48,6 +48,12 @@ BF 4.9.1 ships the same archives for both games. A dry run of the ETS2 generator
   7 base); 17 env flares given BF's sprite (15 learned + 2 green from the pin; the 3 flashes change sprite), 16 kept
   vanilla, 21 env lights kept base.
 - Checks: `--neutral` equals BF byte-for-byte (157 files); a second run reproduces `src/`.
-- US street lamps in the ATS-only files change look: a playtest item, not covered by the ETS2 rounds.
+- Map scan (ATS 1.62.2.2, all 56,223 `.pmg`, 843 sectors): the ATS-only env units (`omni.lamp.y.*`,
+  `street.lamp16m`, `flare.light.n.*.blink`) and `light.y.4m/6m` are on no placed model (`omni.lamp.y.*` and
+  `light.y.*` only on `model/lamps_test_rig`), and ATS has no photographer models or movers. They are shipped
+  because the generator's rules cover them, with no visible effect on the 1.62 map. The visible ATS deltas are the
+  restored fills (underground roads, garages, banks, truck stop shops), the roadwork floodlight
+  (`light.spot.b.fadelong.30m.deg130.always`, 399 placements), `omni.n.25m` (Bay Bridge), `parked.omni.light`
+  (Mandalay Bay) and the pinned `bf_gr` on `flare.model.green` (towing ships, AN-124 depot, Lake Havasu bridge).
 - Shipping BF-derived files is not cleared: GitHub release notes only, no `.scs`, no Workshop upload until Avelium
   answers (SCS forum t=326854).

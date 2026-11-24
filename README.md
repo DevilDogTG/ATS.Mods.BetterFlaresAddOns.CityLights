@@ -31,11 +31,15 @@ Top = highest priority in Mod Manager:
   (`light.fill.*.always`, `template.light.lamp.*`, garage fills) and ATS-only lights (`light.y.4m`, `light.y.6m`,
   `light.y.6m.no.flare`, `omni.n.25m`, `parked.omni.light`, `poor.garage.interior.o.light`). The regenerated files
   carry the base game's full unit list, so they come back, styled like their Better Flares sibling or twin where one
-  exists.
-- **Untouched environment flares:** US street lamps in ATS-only files (`omni_lamp_y`, `street_lamp_16m`, blinking
-  `lights_n_blink`), plane / obstruction lights, green lamps and photographers' camera flashes get the sprite Better
-  Flares uses for the same vanilla sprite elsewhere. Blue beacons, small red / green lamps and the garage lamps have no
-  Better Flares sprite and stay vanilla. Tunnels get no sprite (the base game has none).
+  exists. On the 1.62 map that is the fills of underground roads (Kansas City, Springfield, St. Louis, Joplin),
+  player garages, banks and truck stop shops, the roadwork floodlight (`roadwork_light`, 399 placed), the Bay
+  Bridge (`omni.n.25m`) and Mandalay Bay (`parked.omni.light`). `light.y.4m/6m` are on no placed model.
+- **Untouched environment flares:** green lamps (`flare.model.green`: towing ships, the AN-124 depot, Lake Havasu's
+  London Bridge, yachts), plane / obstruction lights and photographers' camera flashes get the sprite Better Flares
+  uses for the same vanilla sprite elsewhere. The ATS-only env files (`omni_lamp_y`, `street_lamp_16m`,
+  `lights_n_blink`) get Better Flares street-lamp sprites too, but no placed 1.62 model uses their units, and ATS has
+  no photographer models: shipped for consistency, nothing to see today. Blue beacons, small red / green lamps and the
+  garage lamps have no Better Flares sprite and stay vanilla. Tunnels get no sprite (the base game has none).
 
 Not here: headlights (MoreVisibility), traffic lights (DriveDogs World), vehicle interior / plate lights.
 

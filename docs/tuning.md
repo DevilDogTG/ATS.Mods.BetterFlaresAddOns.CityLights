@@ -9,7 +9,7 @@ T3 `tr_light_flares.sii` restore); see the ETS2 repo's `docs/tuning.md`. ATS sta
 
 | Round | Build | Lever group | Values | What to check | Verdict |
 |---|---|---|---|---|---|
-| T1 | 1.0.0-dev.1 | everything ETS2 1.0.0 released + ATS sprite pins | `intensity` 1.0, `ambient` BF's, `restore` on, `env` on; `SPRITE_PINS` `lamp_flare` -> `lamp_4k`, `lamp_flare_green` -> `bf_gr` | City streets and interchanges at night vs BF alone (base brightness, BF sprites kept); a restored fill spot (depot / player garage); US street lamps from the ATS-only env files (`omni.lamp.y.*`, `street.lamp16m`, blinking `light.n.*`); plane / obstruction lights; log clean | pending |
+| T1 | 1.0.0-dev.1 | everything ETS2 1.0.0 released + ATS sprite pins | `intensity` 1.0, `ambient` BF's, `restore` on, `env` on; `SPRITE_PINS` `lamp_flare` -> `lamp_4k`, `lamp_flare_green` -> `bf_gr` | City streets and interchanges at night vs BF alone (base brightness, BF sprites kept); restored fills (Kansas City underground, a player garage); a roadwork floodlight; Bay Bridge `omni.n.25m`; Mandalay Bay `parked.omni.light`; green lamps with the pinned `bf_gr` (Oakland towing ship, AN-124 depot); log clean | pending |
 
 ## Effect of T1 (generator report, 2026-11-24)
 - 482 BF-styled lights at ATS paths: 359 raised to base-game intensity, 21 already at or above it (kept), 102 kept
